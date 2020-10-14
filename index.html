@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Quiz</title> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/HTML_5-Web-App/CSS/style.css">
+</head>
+<body>
+     <div class="container">
+	    <header>
+            <div class="pull-left">Netflix</div>		
+            <div class="pull-right">Happy Binge Watching!</div>		
+        </header>
+		<main>
+		     <form class="questionForm" id="q1" data-question="1" >
+			 <h3>1.Casa de Papel is the original Spanish title of which hit Netflix series? </h3>
+			 <ul>
+			    <li><input type="radio" name="q1" value="a" />White Lines </li>
+			    <li><input type="radio" name="q1" value="b" />Money Heist </li> 
+                <li><input type="radio" name="q1" value="c" />Valeria </li>
+			    <li><input type="radio" name="q1" value="d" />Vis a Vis or Locked Up </li>
+			 </ul>
+			 <button id="submit" >Submit</button>
+			 </form>
+			 
+			 <form class="questionForm" id="q2" data-question="2" >
+			 <h3>2.What is the name of the fictional town where Stranger Things is set?</h3>
+			 <ul>
+			    <li><input type="radio" name="q2" value="a" />Loogootee </li>
+			    <li><input type="radio" name="q2" value="b" />Trafalgar </li> 
+                <li><input type="radio" name="q2" value="c" />Birdseye </li>
+			    <li><input type="radio" name="q2" value="d" />Hawkins </li>
+			 </ul>
+			 <button id="submit" >Submit</button>
+			 </form>
+			 
+			 <form class="questionForm" id="q3" data-question="3" >
+			 <h3>3.What is Jughead Jones’ real full name in Riverdale?</h3>
+			 <ul>
+			    <li><input type="radio" name="q3" value="a" />Archie Andrews </li>
+			    <li><input type="radio" name="q3" value="b" />Reggie Mantle </li> 
+                <li><input type="radio" name="q3" value="c" />Forsythe Pendleton Jones III </li>
+			    <li><input type="radio" name="q3" value="d" />Fred Andrews </li>
+			 </ul>
+			 <button id="submit" >Submit</button>
+			 </form>
+			 
+			 <form class="questionForm" id="q4" data-question="4" >
+			 <h3>4.What's the title of this Netflix movie about a 6'1" high schooler's love triangle?</h3>
+			 <ul>
+			    <li><input type="radio" name="q4" value="a" />Tall Girl </li>
+			    <li><input type="radio" name="q4" value="b" />The Half of It </li> 
+                <li><input type="radio" name="q4" value="c" />Dumplin' </li>
+			    <li><input type="radio" name="q4" value="d" />The Perks of Being a Wallflower </li>
+			 </ul>
+			 <button id="submit" >Submit</button>
+			 </form>
+			 
+			 <form class="questionForm" id="q5" data-question="5" >
+			 <h3>5.Who plays the role of Munna's father in Mirzapur?</h3>
+			 <ul>
+			    <li><input type="radio" name="q5" value="a" />Nawazuddin Siddiqui </li>
+			    <li><input type="radio" name="q5" value="b" />Pankaj Tripathi </li> 
+                <li><input type="radio" name="q5" value="c" />Rajesh Tailang </li>
+			    <li><input type="radio" name="q5" value="d" />Kaleen Bhaiya </li>
+			 </ul>
+			 <button id="submit" >Submit</button>
+		</form>
+			 
+			 <div id="results"></div>
+			 <br>
+			 
+	    </main>
+		<footer>
+		    <div class="pull-left">Total: 5 Questions</div>
+	 </div>
+	 <script src= "js/jquery.js" ></script>
+	 <script src ="js/quiz.js"></script>
+</body>
+</html>
